@@ -1,0 +1,32 @@
+Logo {position: relative;top: -16px;left: -706px;}
+tabel{position: relative;}
+table {border-collapse:separate; border: 10px; border-radius:10px; -moz-border-radius:10px;}
+#header tr{background-color:#FF8C00;}
+#content tr{background-color:#F0E68C;}
+#footer tr{background-color:#DAA520;}
+a:link { color:#000000; text-decoration: none;}
+td.Nav:hover{background-color:#C0A791;}
+td.pic:hover{border-style:solid; border-color:#C0A791;}
+td.peek{opacity:0.33;}
+.Hbutton{border-style:none; background-color:#FF8C00;}
+.Hbutton:hover{border-style:none; background-color:#C0A791;}
+.details{border-style:none; background-color:#F98117; width:120px; height:30px;}
+.details:hover{border-style:none; background-color:#C0A791; width:120px; height:30px;}
+
+.zoom-effect-container {
+    overflow: hidden;
+	cursor: zoom-in;
+}
+
+.AboutPic img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .AboutPic img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
